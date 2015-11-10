@@ -1,0 +1,8 @@
+C:\Users\Corey Massey\Documents\capstone\ActorModel\MainProgram\bin\Release\MainProgram.exe.config
+C:\Users\Corey Massey\Documents\capstone\ActorModel\MainProgram\bin\Release\MainProgram.exe
+C:\Users\Corey Massey\Documents\capstone\ActorModel\MainProgram\bin\Release\MainProgram.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\MainProgram\bin\Release\ActorModel.dll
+C:\Users\Corey Massey\Documents\capstone\ActorModel\MainProgram\bin\Release\ActorModel.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\MainProgram\obj\Release\Client.csprojResolveAssemblyReference.cache
+C:\Users\Corey Massey\Documents\capstone\ActorModel\MainProgram\obj\Release\MainProgram.exe
+C:\Users\Corey Massey\Documents\capstone\ActorModel\MainProgram\obj\Release\MainProgram.pdb

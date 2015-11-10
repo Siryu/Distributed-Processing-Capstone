@@ -1,0 +1,5 @@
+C:\Users\Corey Massey\Documents\capstone\ActorModel\ActorModel\bin\Release\ActorModel.dll
+C:\Users\Corey Massey\Documents\capstone\ActorModel\ActorModel\bin\Release\ActorModel.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\ActorModel\obj\Release\ActorModel.dll
+C:\Users\Corey Massey\Documents\capstone\ActorModel\ActorModel\obj\Release\ActorModel.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\ActorModel\obj\Release\ActorModel.csprojResolveAssemblyReference.cache

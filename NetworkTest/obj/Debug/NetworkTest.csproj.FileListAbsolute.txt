@@ -1,0 +1,8 @@
+C:\Users\Corey Massey\Documents\capstone\ActorModel\NetworkTest\obj\Debug\NetworkTest.csprojResolveAssemblyReference.cache
+C:\Users\Corey Massey\Documents\capstone\ActorModel\NetworkTest\bin\Debug\NetworkTest.exe.config
+C:\Users\Corey Massey\Documents\capstone\ActorModel\NetworkTest\bin\Debug\NetworkTest.exe
+C:\Users\Corey Massey\Documents\capstone\ActorModel\NetworkTest\bin\Debug\NetworkTest.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\NetworkTest\bin\Debug\ActorModel.dll
+C:\Users\Corey Massey\Documents\capstone\ActorModel\NetworkTest\bin\Debug\ActorModel.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\NetworkTest\obj\Debug\NetworkTest.exe
+C:\Users\Corey Massey\Documents\capstone\ActorModel\NetworkTest\obj\Debug\NetworkTest.pdb

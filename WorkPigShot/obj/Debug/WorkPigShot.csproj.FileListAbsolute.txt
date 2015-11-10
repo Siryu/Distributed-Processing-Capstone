@@ -1,0 +1,9 @@
+C:\Users\Corey Massey\Documents\capstone\ActorModel\WorkPigShot\obj\Debug\WorkPigShot.csprojResolveAssemblyReference.cache
+C:\Users\Corey Massey\Documents\capstone\ActorModel\WorkPigShot\bin\Debug\WorkPigShot.dll.config
+C:\Users\Corey Massey\Documents\capstone\ActorModel\WorkPigShot\bin\Debug\WorkPigShot.dll
+C:\Users\Corey Massey\Documents\capstone\ActorModel\WorkPigShot\bin\Debug\WorkPigShot.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\WorkPigShot\bin\Debug\ActorModel.dll
+C:\Users\Corey Massey\Documents\capstone\ActorModel\WorkPigShot\bin\Debug\ActorModel.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\WorkPigShot\bin\Debug\ActorModel.xml
+C:\Users\Corey Massey\Documents\capstone\ActorModel\WorkPigShot\obj\Debug\WorkPigShot.dll
+C:\Users\Corey Massey\Documents\capstone\ActorModel\WorkPigShot\obj\Debug\WorkPigShot.pdb

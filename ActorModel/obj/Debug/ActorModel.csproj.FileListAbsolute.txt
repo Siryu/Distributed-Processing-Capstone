@@ -1,0 +1,16 @@
+D:\Capstone\ActorModel\ActorModel\bin\Debug\ActorModel.dll
+D:\Capstone\ActorModel\ActorModel\bin\Debug\ActorModel.pdb
+D:\Capstone\ActorModel\ActorModel\obj\Debug\ActorModel.dll
+D:\Capstone\ActorModel\ActorModel\obj\Debug\ActorModel.pdb
+D:\Capstone\ActorModel\ActorModel\obj\Debug\ActorModel.csprojResolveAssemblyReference.cache
+C:\Users\Corey Massey\Documents\Capstone\capstone\ActorModel\ActorModel\bin\Debug\ActorModel.dll
+C:\Users\Corey Massey\Documents\Capstone\capstone\ActorModel\ActorModel\bin\Debug\ActorModel.pdb
+C:\Users\Corey Massey\Documents\Capstone\capstone\ActorModel\ActorModel\obj\Debug\ActorModel.csprojResolveAssemblyReference.cache
+C:\Users\Corey Massey\Documents\Capstone\capstone\ActorModel\ActorModel\obj\Debug\ActorModel.dll
+C:\Users\Corey Massey\Documents\Capstone\capstone\ActorModel\ActorModel\obj\Debug\ActorModel.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\ActorModel\bin\Debug\ActorModel.dll
+C:\Users\Corey Massey\Documents\capstone\ActorModel\ActorModel\bin\Debug\ActorModel.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\ActorModel\obj\Debug\ActorModel.dll
+C:\Users\Corey Massey\Documents\capstone\ActorModel\ActorModel\obj\Debug\ActorModel.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\ActorModel\bin\Debug\ActorModel.XML
+C:\Users\Corey Massey\Documents\capstone\ActorModel\ActorModel\obj\Debug\ActorModel.csprojResolveAssemblyReference.cache

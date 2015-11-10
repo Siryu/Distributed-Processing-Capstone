@@ -1,0 +1,8 @@
+D:\Capstone\ActorModel\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+D:\Capstone\ActorModel\ConsoleTest\bin\Debug\ConsoleTest.exe
+D:\Capstone\ActorModel\ConsoleTest\bin\Debug\ConsoleTest.pdb
+D:\Capstone\ActorModel\ConsoleTest\obj\Debug\ConsoleTest.exe
+D:\Capstone\ActorModel\ConsoleTest\obj\Debug\ConsoleTest.pdb
+D:\Capstone\ActorModel\ConsoleTest\bin\Debug\ActorModel.dll
+D:\Capstone\ActorModel\ConsoleTest\bin\Debug\ActorModel.pdb
+D:\Capstone\ActorModel\ConsoleTest\obj\Debug\ConsoleTest.csprojResolveAssemblyReference.cache

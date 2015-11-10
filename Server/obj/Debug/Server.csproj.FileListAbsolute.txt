@@ -1,0 +1,16 @@
+D:\Capstone\ActorModel\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\Capstone\ActorModel\Server\bin\Debug\Server.exe.config
+D:\Capstone\ActorModel\Server\bin\Debug\Server.exe
+D:\Capstone\ActorModel\Server\bin\Debug\Server.pdb
+D:\Capstone\ActorModel\Server\bin\Debug\ActorModel.dll
+D:\Capstone\ActorModel\Server\bin\Debug\ActorModel.pdb
+D:\Capstone\ActorModel\Server\obj\Debug\Server.exe
+D:\Capstone\ActorModel\Server\obj\Debug\Server.pdb
+C:\Users\Corey Massey\Documents\Capstone\capstone\ActorModel\Server\bin\Debug\Server.exe.config
+C:\Users\Corey Massey\Documents\Capstone\capstone\ActorModel\Server\obj\Debug\Server.exe
+C:\Users\Corey Massey\Documents\Capstone\capstone\ActorModel\Server\obj\Debug\Server.pdb
+C:\Users\Corey Massey\Documents\Capstone\capstone\ActorModel\Server\bin\Debug\Server.exe
+C:\Users\Corey Massey\Documents\Capstone\capstone\ActorModel\Server\bin\Debug\Server.pdb
+C:\Users\Corey Massey\Documents\Capstone\capstone\ActorModel\Server\bin\Debug\ActorModel.dll
+C:\Users\Corey Massey\Documents\Capstone\capstone\ActorModel\Server\bin\Debug\ActorModel.pdb
+C:\Users\Corey Massey\Documents\Capstone\capstone\ActorModel\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache

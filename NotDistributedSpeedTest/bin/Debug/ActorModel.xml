@@ -1,0 +1,381 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ActorModel</name>
+    </assembly>
+    <members>
+        <member name="T:ActorModel.Client.DistributedProcess">
+            <summary>
+            Client class to create a Distributed Process.
+            </summary>
+        </member>
+        <member name="M:ActorModel.Client.DistributedProcess.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Standard Constructor taking in required networking credentials.
+            </summary>
+            <param name="serverIP"></param>
+            <param name="serverPort"></param>
+            <param name="localPort"></param>
+        </member>
+        <member name="M:ActorModel.Client.DistributedProcess.Start">
+            <summary>
+            Begins the distribution process.  Starting all threads and work to be done.
+            </summary>
+            <returns>ID to retrieve finished product.</returns>
+        </member>
+        <member name="M:ActorModel.Client.DistributedProcess.addWork(System.Object)">
+            <summary>
+            Add work to be done by an object.
+            </summary>
+            <param name="Data"></param>
+            <returns>this</returns>
+        </member>
+        <member name="M:ActorModel.Client.DistributedProcess.addWork(System.String)">
+            <summary>
+            Add work to be done as a file.
+            </summary>
+            <param name="FileName"></param>
+            <returns>this</returns>
+        </member>
+        <member name="M:ActorModel.Client.DistributedProcess.GetFinishedWork(System.Int64)">
+            <summary>
+            Retrieves the finished work from the server.
+            </summary>
+            <param name="ID"></param>
+            <returns>ReduceResult containing a key and a value.</returns>
+        </member>
+        <member name="M:ActorModel.Client.DistributedProcess.TryGetFinishedWork(System.Int64)">
+            <summary>
+            Try to get the finished work from the server, if the work isn't done, continues.
+            </summary>
+            <param name="ID"></param>
+            <returns>ReduceResult containing a key and a value.</returns>
+        </member>
+        <member name="M:ActorModel.Client.DistributedProcess.AddFunctionFile(System.String)">
+            <summary>
+            Adds in the .dll file for Distribute / Map / Reduce
+            </summary>
+            <param name="FileName"></param>
+            <returns>this</returns>
+        </member>
+        <member name="M:ActorModel.Client.DistributedProcess.Distribute``1(ActorModel.Distributers.DistributerOptions)">
+            <summary>
+            Designates a distribution method to use with your Data.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="distributerOption"></param>
+            <returns>this</returns>
+        </member>
+        <member name="M:ActorModel.Client.DistributedProcess.Map``1(ActorModel.Mapping.MappingOptions)">
+            <summary>
+            Designates a mapping method to use with your Data.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="mappingOption"></param>
+            <returns>this</returns>
+        </member>
+        <member name="M:ActorModel.Client.DistributedProcess.Reduce(ActorModel.Reducers.ReduceOptions)">
+            <summary>
+            Designates a reduce method to use with your Data.
+            </summary>
+            <param name="reduceOption"></param>
+            <returns>this</returns>
+        </member>
+        <member name="T:ActorModel.Exceptions.NotAllFieldsSetException">
+            <summary>
+            Thrown if not all fields are set before distributing.
+            </summary>
+        </member>
+        <member name="T:ActorModel.Distributers.IDistributer">
+            <summary>
+            Set how to setup the distribution of data.
+            </summary>
+        </member>
+        <member name="M:ActorModel.Distributers.IDistributer.Distribute(System.Object)">
+            <summary>
+            Takes data object and Convert into pieces.
+            </summary>
+            <param name="obj"></param>
+            <returns>ReduceResult[] object broken into different pieces.</returns>
+        </member>
+        <member name="T:ActorModel.Distributers.DistributerOptions">
+            <summary>
+            Options for how to distribute data.
+            </summary>
+        </member>
+        <member name="F:ActorModel.Distributers.DistributerOptions.NONE">
+            <summary>
+            No option
+            </summary>
+        </member>
+        <member name="F:ActorModel.Distributers.DistributerOptions.PERDELIMETER">
+            <summary>
+            Set a delimeter then use this option to split by.
+            </summary>
+        </member>
+        <member name="F:ActorModel.Distributers.DistributerOptions.PERLINE">
+            <summary>
+            Per line in a text document
+            </summary>
+        </member>
+        <member name="F:ActorModel.Distributers.DistributerOptions.PERITEM">
+            <summary>
+            Per item in an enumerable.
+            </summary>
+        </member>
+        <member name="T:ActorModel.Mapping.IMapping">
+            <summary>
+            Used to determine how to map your data.
+            </summary>
+        </member>
+        <member name="M:ActorModel.Mapping.IMapping.Map(System.Object)">
+            <summary>
+            Takes your distributed item and returns 0 or more MappedAnswers
+            </summary>
+            <param name="data"></param>
+            <returns>MappedAnswer[] with 0 or more MappedAnswers</returns>
+        </member>
+        <member name="T:ActorModel.Mapping.MappedAnswer">
+            <summary>
+            Item that has been mapped.
+            </summary>
+        </member>
+        <member name="M:ActorModel.Mapping.MappedAnswer.#ctor">
+            <summary>
+            Basic Constructor
+            </summary>
+        </member>
+        <member name="M:ActorModel.Mapping.MappedAnswer.#ctor(System.String,System.Object)">
+            <summary>
+            Constructor taking a key and value.
+            </summary>
+            <param name="Key"></param>
+            <param name="Value"></param>
+        </member>
+        <member name="P:ActorModel.Mapping.MappedAnswer.Key">
+            <summary>
+            Key
+            </summary>
+        </member>
+        <member name="P:ActorModel.Mapping.MappedAnswer.Value">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="T:ActorModel.Mapping.MappingOptions">
+            <summary>
+            Mapping options
+            </summary>
+        </member>
+        <member name="F:ActorModel.Mapping.MappingOptions.NONE">
+            <summary>
+            No option
+            </summary>
+        </member>
+        <member name="F:ActorModel.Mapping.MappingOptions.COUNT">
+            <summary>
+            Mapped by the count of items.
+            </summary>
+        </member>
+        <member name="T:ActorModel.Node.Node">
+            <summary>
+            Worker Node Class used to create a Node.
+            </summary>
+        </member>
+        <member name="M:ActorModel.Node.Node.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Basic Constructor, needs all 3 parameters.
+            </summary>
+            <param name="ServerIP"></param>
+            <param name="ServerPort"></param>
+            <param name="LocalPort"></param>
+        </member>
+        <member name="M:ActorModel.Node.Node.Start">
+            <summary>
+            Starts the Node by opening network connections and starting the listener.
+            </summary>
+        </member>
+        <member name="M:ActorModel.Node.Node.Close">
+            <summary>
+            Closes all threads and connections on Node.
+            </summary>
+        </member>
+        <member name="T:ActorModel.Interfaces.IWork">
+            <summary>
+            no longer used.
+            </summary>
+        </member>
+        <member name="M:ActorModel.Interfaces.IWork.DistributeBy(System.Object)">
+            <summary>
+            no longer used.
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ActorModel.Reducers.IReducer">
+            <summary>
+            used to retrieve the final answer.
+            </summary>
+        </member>
+        <member name="M:ActorModel.Reducers.IReducer.Reduce(ActorModel.Reducers.ReduceResult[])">
+            <summary>
+            final reduce answers.
+            </summary>
+            <param name="RR"></param>
+        </member>
+        <member name="M:ActorModel.Reducers.IReducer.getResult">
+            <summary>
+            pulls the ReduceResult from the method.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ActorModel.Reducers.IReduce">
+            <summary>
+            Designates how to reduce your mapped items.
+            </summary>
+        </member>
+        <member name="M:ActorModel.Reducers.IReduce.Reduce(ActorModel.Mapping.MappedAnswer[])">
+            <summary>
+            Takes in one or two MappedAnswers and combines them by this method.
+            </summary>
+            <param name="mappedData"></param>
+            <returns>0 or more MappedAnswers.</returns>
+        </member>
+        <member name="T:ActorModel.Reducers.ReduceOptions">
+            <summary>
+            Reduce options for mapped data.
+            </summary>
+        </member>
+        <member name="F:ActorModel.Reducers.ReduceOptions.NONE">
+            <summary>
+            No option.
+            </summary>
+        </member>
+        <member name="F:ActorModel.Reducers.ReduceOptions.SUM">
+            <summary>
+            Sum all Values
+            </summary>
+        </member>
+        <member name="F:ActorModel.Reducers.ReduceOptions.MAX">
+            <summary>
+            Find the max of the Values
+            </summary>
+        </member>
+        <member name="F:ActorModel.Reducers.ReduceOptions.CONCAT">
+            <summary>
+            Concatinate all the values together.
+            </summary>
+        </member>
+        <member name="F:ActorModel.Reducers.ReduceOptions.AVERAGE">
+            <summary>
+            Find the Average of the Values
+            </summary>
+        </member>
+        <member name="F:ActorModel.Reducers.ReduceOptions.COUNT">
+            <summary>
+            Count the Values.
+            </summary>
+        </member>
+        <member name="F:ActorModel.Reducers.ReduceOptions.MIN">
+            <summary>
+            Find the minimum of the Values.
+            </summary>
+        </member>
+        <member name="T:ActorModel.Reducers.ReduceResult">
+            <summary>
+            Key Value Pair
+            </summary>
+        </member>
+        <member name="M:ActorModel.Reducers.ReduceResult.#ctor">
+            <summary>
+            Empty Constructor.
+            </summary>
+        </member>
+        <member name="M:ActorModel.Reducers.ReduceResult.#ctor(System.Object,System.Object)">
+            <summary>
+            Basic Constructor
+            </summary>
+            <param name="Key"></param>
+            <param name="values"></param>
+        </member>
+        <member name="P:ActorModel.Reducers.ReduceResult.Key">
+            <summary>
+            Key
+            </summary>
+        </member>
+        <member name="P:ActorModel.Reducers.ReduceResult.values">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="T:ActorModel.TaskManager.TaskManager">
+            <summary>
+            Task Manager Class.
+            </summary>
+        </member>
+        <member name="M:ActorModel.TaskManager.TaskManager.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Basic Constructor taking in all network items needed.
+            </summary>
+            <param name="ServerIP"></param>
+            <param name="ServerPort"></param>
+            <param name="ListenPort"></param>
+        </member>
+        <member name="M:ActorModel.TaskManager.TaskManager.Start">
+            <summary>
+            Starts the Task Manager threads and networking listeners.
+            </summary>
+        </member>
+        <member name="M:ActorModel.TaskManager.TaskManager.Close">
+            <summary>
+            Closes the Task Manager threads and network connections.
+            </summary>
+        </member>
+        <member name="T:ActorModel.Server.Server">
+            <summary>
+            Server library used to create a Server.
+            </summary>
+        </member>
+        <member name="M:ActorModel.Server.Server.#ctor(System.Int32)">
+            <summary>
+            Basic Constructor
+            </summary>
+            <param name="ListenPort"></param>
+        </member>
+        <member name="M:ActorModel.Server.Server.Start">
+            <summary>
+            Starts the Server threads and network listeners.
+            </summary>
+        </member>
+        <member name="M:ActorModel.Server.Server.Close">
+            <summary>
+            Closes the Server threads and network connections.
+            </summary>
+        </member>
+        <member name="M:ActorModel.Server.Server.SetAmountOfIPsToReturn(System.Int32)">
+            <summary>
+            Sets the amount of IP's the server returns on each request.
+            </summary>
+            <param name="amount"></param>
+        </member>
+        <member name="T:ActorModel.Tools.SSLTest">
+            <summary>
+            Network Security layer
+            </summary>
+        </member>
+        <member name="M:ActorModel.Tools.SSLTest.ManageClient(System.Net.Sockets.TcpClient)">
+            <summary>
+            Takes in a TCPClient and converts it to an SSL Stream.
+            </summary>
+            <param name="client"></param>
+            <returns>SslStream from the recieved TcpClient</returns>
+        </member>
+        <member name="M:ActorModel.Tools.SSLTest.ManageServer(System.Net.Sockets.TcpClient)">
+            <summary>
+            Authenticates as a Server.
+            </summary>
+            <param name="client"></param>
+            <returns>SSL Stream after authentication.</returns>
+        </member>
+    </members>
+</doc>

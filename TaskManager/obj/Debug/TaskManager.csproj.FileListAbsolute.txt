@@ -1,0 +1,17 @@
+D:\capstone\ActorModel\TaskManager\bin\Debug\TaskManager.exe.config
+D:\capstone\ActorModel\TaskManager\obj\Debug\TaskManager.exe
+D:\capstone\ActorModel\TaskManager\obj\Debug\TaskManager.pdb
+D:\capstone\ActorModel\TaskManager\bin\Debug\ActorModel.dll
+D:\capstone\ActorModel\TaskManager\bin\Debug\ActorModel.pdb
+D:\capstone\ActorModel\TaskManager\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+D:\capstone\ActorModel\TaskManager\bin\Debug\TaskManager.exe
+D:\capstone\ActorModel\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\TaskManager\bin\Debug\TaskManager.exe.config
+C:\Users\Corey Massey\Documents\capstone\ActorModel\TaskManager\bin\Debug\TaskManager.exe
+C:\Users\Corey Massey\Documents\capstone\ActorModel\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\TaskManager\bin\Debug\ActorModel.dll
+C:\Users\Corey Massey\Documents\capstone\ActorModel\TaskManager\bin\Debug\ActorModel.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\TaskManager\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+C:\Users\Corey Massey\Documents\capstone\ActorModel\TaskManager\obj\Debug\TaskManager.exe
+C:\Users\Corey Massey\Documents\capstone\ActorModel\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\TaskManager\bin\Debug\ActorModel.xml

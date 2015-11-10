@@ -1,0 +1,8 @@
+C:\Users\Corey Massey\Documents\capstone\ActorModel\Server\bin\Release\Server.exe.config
+C:\Users\Corey Massey\Documents\capstone\ActorModel\Server\bin\Release\Server.exe
+C:\Users\Corey Massey\Documents\capstone\ActorModel\Server\bin\Release\Server.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\Server\bin\Release\ActorModel.dll
+C:\Users\Corey Massey\Documents\capstone\ActorModel\Server\bin\Release\ActorModel.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\Server\obj\Release\MainServer.csprojResolveAssemblyReference.cache
+C:\Users\Corey Massey\Documents\capstone\ActorModel\Server\obj\Release\Server.exe
+C:\Users\Corey Massey\Documents\capstone\ActorModel\Server\obj\Release\Server.pdb

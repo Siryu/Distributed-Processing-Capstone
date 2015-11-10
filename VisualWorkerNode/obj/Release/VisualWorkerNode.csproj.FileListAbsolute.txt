@@ -1,0 +1,15 @@
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\bin\Release\VisualWorkerNode.exe.config
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\bin\Release\VisualWorkerNode.exe
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\bin\Release\VisualWorkerNode.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\bin\Release\ActorModel.dll
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\bin\Release\ActorModel.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\obj\Release\MainWindow.baml
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\obj\Release\MainWindow.g.cs
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\obj\Release\App.g.cs
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\obj\Release\VisualWorkerNode_MarkupCompile.cache
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\obj\Release\VisualWorkerNode.g.resources
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\obj\Release\VisualWorkerNode.Properties.Resources.resources
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\obj\Release\VisualWorkerNode.csproj.GenerateResource.Cache
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\obj\Release\VisualWorkerNode.exe
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\obj\Release\VisualWorkerNode.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\VisualWorkerNode\obj\Release\VisualWorkerNode.csprojResolveAssemblyReference.cache

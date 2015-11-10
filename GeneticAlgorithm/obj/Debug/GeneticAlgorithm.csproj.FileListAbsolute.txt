@@ -1,0 +1,6 @@
+C:\Users\Corey Massey\Documents\capstone\ActorModel\GeneticAlgorithm\obj\Debug\GeneticAlgorithm.csprojResolveAssemblyReference.cache
+C:\Users\Corey Massey\Documents\capstone\ActorModel\GeneticAlgorithm\bin\Debug\GeneticAlgorithm.exe.config
+C:\Users\Corey Massey\Documents\capstone\ActorModel\GeneticAlgorithm\bin\Debug\GeneticAlgorithm.exe
+C:\Users\Corey Massey\Documents\capstone\ActorModel\GeneticAlgorithm\bin\Debug\GeneticAlgorithm.pdb
+C:\Users\Corey Massey\Documents\capstone\ActorModel\GeneticAlgorithm\obj\Debug\GeneticAlgorithm.exe
+C:\Users\Corey Massey\Documents\capstone\ActorModel\GeneticAlgorithm\obj\Debug\GeneticAlgorithm.pdb

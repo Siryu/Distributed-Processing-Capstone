@@ -1,0 +1,69 @@
+﻿<Window x:Class="VisualWorkerNode.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Worker Node" Height="180" Width="335"
+        ResizeMode="CanMinimize">
+    <Grid x:Name="mainPanel"
+          Background="LightSteelBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="60*" />
+        </Grid.RowDefinitions>
+        <UniformGrid x:Name="dataPanel"
+                     Grid.Row="0"
+                     Columns="2"
+                     Rows="3"
+                     Margin="5">
+
+            <Label Content="Server's IP Address : "
+                   FontSize="14"
+                   HorizontalContentAlignment="Right"></Label>
+            <TextBox Name="ServerIP"
+                     Width="150"
+                     Height="25px"
+                     
+                     HorizontalAlignment="Left"
+                     Margin="2"></TextBox>
+
+            <Label Content="Server's Port : "
+                   FontSize="14"
+                   HorizontalContentAlignment="Right"></Label>
+            <TextBox Name="ServerPort"
+                     Width="150"
+                     Height="25px"
+                     HorizontalAlignment="Left"
+                     Margin="2"></TextBox>
+
+            <Label Content="Local Listening Port : "
+                   FontSize="14"
+                   HorizontalContentAlignment="Right"></Label>
+            <TextBox Name="ListenPort"
+                     Width="150"
+                     Height="25px"
+                     HorizontalAlignment="Left"
+                     Margin="2"></TextBox>
+        </UniformGrid>
+        
+        <DockPanel x:Name="buttons"
+              Grid.Row="1">
+            
+            <Button x:Name="startButton"
+                Width="50px"
+                Height="21px"
+                Margin="10, 5, 10, 5"
+                DockPanel.Dock="Right"
+                HorizontalAlignment="Right"
+                Content="Start"
+                Click="startButton_Click"/>
+            <Button x:Name="stopButton"  
+                Width="50px"
+                Height="21px"
+                Margin="10, 5, 10, 5"
+                DockPanel.Dock="Right"
+                HorizontalAlignment="Right"
+                Content="Stop"
+                Click="closeButton_Click"/>
+        </DockPanel>
+    </Grid>
+</Window>
